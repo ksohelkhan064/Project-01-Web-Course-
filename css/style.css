@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:bisque;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(71, 86, 223);
+}
+a:hover{
+    color: rgb(255, 114, 53);
+}
+
+nav{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 5px; 
+   border: 2px solid black;
+ }
+ nav h1{
+     font-size: 50px;
+     color: rgb(71, 86, 223);
+ }
+
+nav a{
+    color: rgb(71, 86, 223);  
+}
+
+nav a:hover{
+    color: tomato;
+}
+nav ul{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  font-size: 20px;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.hero span{
+    font-size: 30px;
+    color: red;
+}
+
+.hero img{
+    height: 300px;
+    margin-right: 200px;
+    margin-top: 30px;
+   
+}
+.bio{
+    
+    width: 500px;
+    height: 300px;
+    font-size: 25px;
+    border: 3px solid black;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.skills h2{
+    
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 50px;
+
+}
+.skills img{
+    display: inline-block;
+     border: 2px solid black;
+    padding: 5px;
+    margin-top: 20px;
+    margin: 50px;
+    text-align: center;
+}
+
+#about h1{
+    
+   font-size: 30px;
+}
+
+form h1{
+    font-size: 40px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-top: 80px;
+    width: 40vw;
+}
+form input{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 50px;
+    text-align: start;
+    padding: 10px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  
+}
+
+
+#message{
+    width: 500px;
+    height: 250px;
+    padding: 10px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.education h1{
+    font-size: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+.timeline-wrapper{
+    font-size: 30px;
+    border:2px solid black;
+    width: 800px;
+    text-align: center;
+    margin: 10px;
+}
+
+.timeline-yr{
+    font-size: 40px;
+    font-weight: 150px;
+}
+
+.logo img{
+  display: inline-block;
+
+    height: 90px;
+    padding: 20px;
+    margin: 5px;
+}
+.logo h1{
+    font-size: 40px;
+}
+footer{
+    font-size: 30px;
+    text-align: center;
+    height: 100px;
+   
+    
+}
+
+
