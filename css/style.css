@@ -81,10 +81,10 @@ nav ul{
 }
 .skills img{
     display: inline-block;
-     border: 2px solid black;
+    border: 2px solid black;
     padding: 5px;
     margin-top: 20px;
-    margin: 50px;
+    margin: 30px;
     text-align: center;
 }
 
